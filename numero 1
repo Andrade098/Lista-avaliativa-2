@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	  int a, b, c, d;
+	
+printf("Insira o valor de A: ");
+	scanf("%d", &a);
+	
+printf("Insira o valor de B: ");
+	scanf("%d", &b);
+	
+printf("Insira o valor de C: ");
+	scanf("%d", &c);
+	
+printf("Insira o valor de D: ");
+	scanf("%d", &d);
+	
+int resultado = (a * b) - (c * d);
+	
+	printf("Resultado: %d", resultado);
+}
