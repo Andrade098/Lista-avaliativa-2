@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+	float raio, volume, area, pi = 3.14159;
+	
+printf("Escreva o valor do Raio: ");
+	scanf("%f", &raio);
+	
+	  area = 4 * pi * pow(raio, 2);
+	  volume = (4 * pi *pow(raio, 3)) / 3;
+	
+printf("O valor do eh Raio: %f", raio);
+printf("\nVolume eh igual a : %f", volume);
+printf("\nArea eh igual a: %f", area);
+}
